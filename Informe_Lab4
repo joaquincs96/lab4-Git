@@ -1,0 +1,45 @@
+# Informe Laboratorio 4 Computación en la Nube Joaquín Cantón Sandoval
+
+Durante este Laboratorio, he conseguido configurar de cero un reservorio Git y una cuenta en GitHub, que anteriormente no 
+tenía. He conseguido crear un repositorio local y en la nube, subir archivos, modificarlos, y controlar los cambios,
+usar ramas, manejar conflictos y repasar los slurm que ya vimos en los laboratorios anteriores.
+
+Mi opinión es que, de momento, esta es una de las prácticas con las que más he disfrutado, a pesar de que he necesitado
+tiempo para aclararme a la hora de realizar la inicialización local y remota de Git, y la verdad que me había desesperado
+un poco, que de hecho, no he sido capaz de lograr por medio del contenido del anexo, y lo hice siguiendo estos pasos:
+
+Crea un token de acceso personal en GitHub:
+
+Ve a la configuración de tu cuenta de GitHub.
+En el menú lateral izquierdo, haz clic en "Developer settings".
+Selecciona "Personal access tokens".
+Haz clic en "Generate new token".
+Asigna un nombre descriptivo al token y selecciona los permisos necesarios.
+Haz clic en "Generate token" al final de la página.
+Usa el token de acceso personal para autenticarte:
+
+Una vez que tengas el token de acceso personal, puedes usarlo para autenticarte en lugar de tu contraseña en la terminal:
+
+git remote set-url origin https://tu_usuario:tu_token@github.com/tu_usuario/tu_repositorio.git
+
+Reemplaza tu_usuario con tu nombre de usuario en GitHub y tu_token con el token de acceso personal recién generado.
+
+Una vez que hayas configurado el nuevo URL remoto con el token de acceso personal, puedes intentar hacer push nuevamente:
+
+git push origin main
+
+Esta práctica me parece muy completa en cuanto al manejo de Git. Yo, personalmente, no lo había usado nunca, y he acabado
+más o menos entendiendo todos los pasos y llevándolos a cabo. Hasta ahora, solo había utilizado GitHub para descargar
+algunos tutoriales para hacer análisis ómicos como Single Cell-RNA seq, pero debo admitir que he tenido una gran
+ignorancia con respecto a todo lo que aporta y permite almacenar, gestionar, y controlar.  
+Quería además, hacer unas aclaraciones sobre mi trabajo
+en concreto:
+
+1. En la parte de conflictos, de primeras tuve un problema con el archivo diff-ejemplo-alumno04 que subí, por lo que 
+lo borré en el propio GitHub y empecé de nuevo, es por ello por lo que tuve quehacer más commit de los que en principio
+hacían falta para la práctica.
+
+2. Dependiendo de cuando se haya corregido esta práctica, de momento solo he subido el fichero extra.txt, por lo que
+puede ser que mis compañeros aún no lo hayan podido modificar.
+
+

@@ -2,4 +2,5 @@
 *
 * Estas tres primeras líneas estaban escritas inicialmente
 *
-* Esta es la copia unión del repositorio local y de GitHub
+* Esta es la copia de GitHub y la copia local combinadas
+
